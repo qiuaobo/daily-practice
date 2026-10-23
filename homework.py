@@ -107,23 +107,97 @@
 
 
 
-con = input('请输入国家')
-year = input('请输入年份')
-month= input('请输入月份')
-day = input('请输入日期')
-hour = input('请输入小时')
-min = input('请输入分钟')
-second = input('请输入秒')
-if con == '中国':
-    print(f'{year}年{month}月{day}日{hour}：{min}：{second}')
-elif con == '美国':
-    print(f'{month}/{day}/{year}{hour}：{min}：{second}')
-elif con == '英国'or'澳大利亚'or'法国':
-    print(f'{day}/{month}/{year}{hour}：{min}：{second}')
-elif con == '德国'or'俄罗斯':
-    print(f'{day}.{month}.{year}{hour}：{min}：{second}')
-elif con == '中国':
-    print(f'{year}-{month}-{day}{hour}：{min}：{second}')
+# con = input('请输入国家')
+# year = input('请输入年份')
+# month= input('请输入月份')
+# day = input('请输入日期')
+# hour = input('请输入小时')
+# min = input('请输入分钟')
+# second = input('请输入秒')
+# if con == '中国':
+#     print(f'{year}年{month}月{day}日{hour}：{min}：{second}')
+# elif con == '美国':
+#     print(f'{month}/{day}/{year}{hour}：{min}：{second}')
+# elif con == '英国'or'澳大利亚'or'法国':
+#     print(f'{day}/{month}/{year}{hour}：{min}：{second}')
+# elif con == '德国'or'俄罗斯':
+#     print(f'{day}.{month}.{year}{hour}：{min}：{second}')
+# elif con == '中国':
+#     print(f'{year}-{month}-{day}{hour}：{min}：{second}')
+
+
+
+
+
+# print('=' * 20)
+# name = input('请输入姓名：')
+# work = input('请输入职位：')
+# number = input('请输入电话号码：')
+# ip = input('请输入邮箱地址：')
+# print('=' * 20)
+
+
+
+# print('欢迎使用文字排版工具')
+# total = input('请输入文字')
+# while True:
+#     print('1删除空格\n2英文字典替换\n3段落分割\n4字母大写\n0退出')
+#     num = int(input('请输入编码'))
+#     if num == 1:
+#         total.replace(' ','')
+#         print(total)
+#     elif num == 2:
+#         total.replace(',','，')
+#         total.replace('.','。')
+#         total.replace('?','？')
+#         total.replace('!','！')
+#         total.replace(':','：')
+#         print(total)
+#     elif num == 3:
+#         total.replace('\\n,\\r','\n')
+#         print(total)
+#     elif num == 4:
+#         total.upper()
+#         print(total)
+#     elif num == 0:
+#         break
+#     else:
+#         print('无效信息')
+
+
+
+# print('='*30)
+# name = input('姓名：')
+# work = input('职位：')
+# num = input('电话：')
+# IP = input('邮箱地址：')
+# print('='*30)
+
+
+# first = '万事如意'
+# end = first[-1]
+# new = ['万事如意']
+# li = ['发愤图强','笑容满面','意气风发','强颜欢笑']
+# for a in range(len(li)):
+#     for i in li:
+#         if end == i[0]:
+#             new.append(i)
+#             li.remove(i)
+#             end = i[-1]
+#             break
+# print(new)
+
+
+
+num = ('零','一','二','三','四','五','六','七','八','九')
+men = input('请输入数字')
+for i in range(len(men)):
+    print(num[int(men[i])],end='')
+
+
+
+
+
 
 
 
